@@ -47,11 +47,6 @@
 			<artifactId>h2</artifactId>
 			<version>${h2.version}</version>
 		</dependency>
-		<!-- Add MySQL database support [for running with PRODUCTION profile] -->		
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
 		<dependency>
     		<groupId>org.apache.commons</groupId>
     		<artifactId>commons-lang3</artifactId>
@@ -65,11 +60,11 @@
 					commandline using java -jar NAME -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+				<!-- <configuration>
           <jvmArguments>
             -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
           </jvmArguments>
-        </configuration>
+        </configuration> -->
 			</plugin>
 		</plugins>
 	</build>

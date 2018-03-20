@@ -1,5 +1,5 @@
 <div class="todo-content">
-    <h1 class="page-title">My Todos</h1>
+    <h1 class="page-title">Todos</h1>
 <div class="todo-create">
       <form ng-submit="ctrl.createPoint()" name="myForm">
         <input type="text" id="title" class="form-control" placeholder="Type a todo and press enter..." 
