@@ -1,3 +1,8 @@
-mvn clean install;mvn spring-boot:run
+[Build]
+mvn clean install
 
-create fat jar
+[Run Exported jar]
+java -jar Todo-1.0.0.jar
+
+[run by pom]
+mvn spring-boot:run
