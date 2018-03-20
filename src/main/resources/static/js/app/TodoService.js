@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('crudApp').factory('TodoService',
+angular.module('todoApp').factory('TodoService',
 		['$localStorage', '$http', '$q', 'urls',
 			function ($localStorage, $http, $q, urls) {
 

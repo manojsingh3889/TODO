@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('crudApp').controller('TodoController',
+angular.module('todoApp').controller('TodoController',
 		['TodoService', '$scope',  function( TodoService, $scope) {
 
 			var self = this;
