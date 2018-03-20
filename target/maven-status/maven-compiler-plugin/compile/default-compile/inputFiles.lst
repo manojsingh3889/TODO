@@ -1,0 +1,9 @@
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/controller/AppController.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/configuration/JpaConfiguration.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/service/TodoPointServiceImpl.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/model/TodoPoint.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/util/CustomErrorType.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/service/TodoPointService.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/controller/RestApiController.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/repositories/TodoPointRepository.java
+/home/stpl/workspace/TODO/src/main/java/com/test/igt/Todo.java
