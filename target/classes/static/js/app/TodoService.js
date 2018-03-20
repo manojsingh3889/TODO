@@ -9,7 +9,6 @@ angular.module('todoApp').factory('TodoService',
 					getAllPoints: getAllPoints,
 					getPoint: getPoint,
 					createPoint: createPoint,
-					updatePoint: updatePoint,
 					deleteTodo: deleteTodo,
 					completeTodo: completeTodo
 
@@ -67,23 +66,6 @@ angular.module('todoApp').factory('TodoService',
 						},
 						function (errResponse) {
 							console.error('Error while creating Point : '+errResponse.data.errorMessage);
-							deferred.reject(errResponse);
-						}
-				);
-				return deferred.promise;
-			}
-
-			function updatePoint(user, id) {
-				console.log('Updating Point with id '+id);
-				var deferred = $q.defer();
-				$http.put(urls.USER_SERVICE_API + id, user)
-				.then(
-						function (response) {
-							loadAllPoints();
-							deferred.resolve(response.data);
-						},
-						function (errResponse) {
-							console.error('Error while updating Point with id :'+id);
 							deferred.reject(errResponse);
 						}
 				);
