@@ -2,6 +2,7 @@
 mvn clean install
 
 [Run Exported jar]
+> IN TARGET FOLDER FIND Todo-1.0.0.jar
 java -jar Todo-1.0.0.jar
 
 [run by pom]
