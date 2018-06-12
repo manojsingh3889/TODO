@@ -1,9 +1,0 @@
-com\test\igt\configuration\JpaConfiguration.class
-com\test\igt\Todo.class
-com\test\igt\service\TodoPointServiceImpl.class
-com\test\igt\util\CustomErrorType.class
-com\test\igt\controller\RestApiController.class
-com\test\igt\repositories\TodoPointRepository.class
-com\test\igt\service\TodoPointService.class
-com\test\igt\model\TodoPoint.class
-com\test\igt\controller\AppController.class
